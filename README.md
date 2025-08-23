@@ -10,9 +10,6 @@
 ## 📸 Снимка на проекта
 ![Calculator Screenshot](https://github.com/user-attachments/assets/835ccc11-e381-4aa0-93df-8c6ca358c672)
 
-
-  
-
 ---
 
 ## ✨ Функционалност
@@ -28,10 +25,10 @@
 
 ## 📂 Структура на проекта
 
-  calculator/
-│
-├── index.html 
-├── style.css 
-├── script.js 
-└── images/
+   calculator/  
+│  
+├── index.html  
+├── style.css  
+├── script.js   
+├── images/  
 └── screenshot.png
