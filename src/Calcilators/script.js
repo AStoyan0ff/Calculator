@@ -1,76 +1,144 @@
 const display = document.querySelector('.display');
-const buttons = document.querySelectorAll('button');
+const buttons = document.querySelectorAll('.btn');
+const powerBtn = document.querySelector('.power');
 
-let currInput = '';
+let currentInput = '';
 let isOn = false;
+
+function setButtonsState(on) {
+
+    buttons.forEach(b => { 
+        if (!b.classList.contains('power')) b.disabled = !on; });
+}
+
+function getBtnValue(btn) {
+    return (btn.dataset.value ?? btn.textContent).trim();
+}
+
+function normalize(expr) {
+    return expr
+        .replace(/×|x/g, '*')
+        .replace(/÷/g, '/')
+        .replace(/−/g, '-')
+        .replace(/√/g, 'Math.sqrt')
+        .replace(/%/g, '/100');
+}
+
+function safeEval(expr) {
+
+    const sanitized = normalize(expr).replace(/\s+/g, '');
+    const cleaned = sanitized.replace(/[+\-*/.]$/, '');
+    if (!cleaned) return '';
+  
+    return Function(`"use strict"; return (${cleaned});`)();
+}
+setButtonsState(false);
 
 buttons.forEach(btn => {
     btn.addEventListener('click', () => {
-        const value = btn.textContent;
 
-        if (value === 'ON') {
+        const value = getBtnValue(btn);
+        if (!value) return;
 
-            isOn = true;
-            currInput = '';
+   
+        if (value === 'power') {
+        
+        isOn = !isOn;
+        powerBtn.textContent = isOn 
+        ? 'OFF' 
+        : 'ON';
+
+        currentInput = '';
+        display.value = isOn 
+        ? '0' 
+        : '';
+
+        setButtonsState(isOn);
+        return;
+        }
+
+    if (!isOn) return;
+
+    switch (value) {
+
+        case 'AC':
+
+            currentInput = '';
             display.value = '0';
             return;
-        }
 
-        if (!isOn) return;
-
-        if (value === 'OFF') {
-
-            isOn = false;
-            currInput = '';
-            display.value = '';
-            return;
-        }
-
-        if (value === 'AC') {
-
-            currInput = '';
-            display.value = '0';
-            return;
-        }
-
-        if (value === '=') {
-            if (currInput.trim() === '') return;
+        case '=': {
 
             try {
-                let expression = currInput
-                    .replace(/x/g, '*')
-                    .replace(/%/g, '/100')
-                    .replace(/√/g, 'Math.sqrt');
+            const result = safeEval(currentInput);
 
-                let result = eval(expression);
-
-                if (Number.isFinite(result)) {
-                    display.value = result;
-                    currInput = result.toString();
-                }
-                else {
-                    display.value = 'Error';
-                    currInput = '';
-                }
-            }
-            catch {
+            if (result === '' || !Number.isFinite(result)) {
                 display.value = 'Error';
-                currInput = '';
+                currentInput = '';
+            } 
+            else {
+
+                display.value = String(result);
+                currentInput = String(result); 
             }
+        } 
+        catch {
+
+            display.value = 'Error';
+            currentInput = '';
         }
+        return;
+    }
+        case '+/-':
 
-        if (value === '+/-') {
+            if (currentInput.startsWith('-')) {
+            currentInput = currentInput.slice(1);
+            } 
 
-            if (currInput.startsWith('-')) {
-                currInput = '-' + currInput;
+            else {
+
+                currentInput = currentInput 
+                ? '-' + currentInput 
+                : '-';
             }
 
-            display.value = currInput;
+            display.value = currentInput || '0';
+            return;
+
+        case '.': {
+            
+            const parts = currentInput.split(/[+\-×x*/÷]/);
+
+            if (!parts[parts.length - 1].includes('.')) {
+
+            currentInput += '.';
+            display.value = currentInput;
+            }
+
             return;
         }
 
-        currInput += value;
-        display.value = currInput;
-    });
-});
+        default: {
+        
+            const isOperator = /[+\-×x*/÷]/.test(value);
+            const operatorAtEnd = /[+\-×x*/÷]$/.test(currentInput);
 
+            if (isOperator) {
+                if (currentInput === '' && (value === '+' || value === '-')) {
+                currentInput = value; 
+                } 
+                else if (operatorAtEnd) {
+                    currentInput = currentInput.replace(/[+\-×x*/÷]$/, value);
+                } 
+                else {
+                    currentInput += value;
+            }
+        } 
+        else {
+            currentInput += value;
+        }
+        display.value = currentInput;
+      }
+    }
+  });
+});
