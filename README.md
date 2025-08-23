@@ -8,7 +8,7 @@
 ---
 
 ## 📸 Снимка на проекта
-![Calculator Screenshot]()![Calkulator](https://github.com/user-attachments/assets/835ccc11-e381-4aa0-93df-8c6ca358c672)
+![Calculator Screenshot](https://github.com/user-attachments/assets/835ccc11-e381-4aa0-93df-8c6ca358c672)
 
 
   
