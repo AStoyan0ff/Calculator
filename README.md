@@ -8,8 +8,9 @@
 ---
 
 ## 📸 Снимка на проекта
-![Calculator Screenshot](<img width="463" height="701" alt="Екранна снимка 2025-08-23 032448" src="https://github.com/user-attachments/assets/89011326-286e-4368-a757-09da5be79639" />
-)
+![Calculator Screenshot]()![Calkulator](https://github.com/user-attachments/assets/835ccc11-e381-4aa0-93df-8c6ca358c672)
+
+
   
 
 ---
