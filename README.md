@@ -1,3 +1,5 @@
+## 👤 Автор : AStoyanoff
+
 # 🧮 JavaScript Calculator
 
 Прост и модерен калкулатор, направен с **HTML**, **CSS** и **JavaScript**.  
@@ -6,7 +8,8 @@
 ---
 
 ## 📸 Снимка на проекта
-![Calculator Screenshot](C:\Users\HP\OneDrive\Pictures\Screenshots\Screenshots\Екранна снимка 2025-08-23 032448.png)
+![Calculator Screenshot](<img width="463" height="701" alt="Екранна снимка 2025-08-23 032448" src="https://github.com/user-attachments/assets/89011326-286e-4368-a757-09da5be79639" />
+)
   
 
 ---
