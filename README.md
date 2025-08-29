@@ -4,12 +4,13 @@
   <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExa25jaTAxa2loanV5azR5dXI3a29jZnpjd3V0aGE5NmZ0bzAzZ3c3MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6OrCT1jVbonHG/giphy.gif"  width="300">
 </h1>
 
-🎓 `**Student at [Software University (SoftUni.bg)](https://softuni.bg)**  `
+🎓 `**Student at [Software University (SoftUni.bg)](https://softuni.bg)**`
+
 💻 `**I love programming and developing in the field of software development.**`
 
 ---
 
-## 🛠️ Skills and technologies 
+### 🛠️ Skills and technologies 
 
 ### 💻 Programming languages:
 <p>
@@ -63,7 +64,7 @@
 
 ---
 
-## 📂 Projects:
+### 📂 Projects:
 🔹 **[Calculator App](https://github.com/AStoyan0ff/Calculator/tree/master/src/Calcilators)** - `HTML&CSS` and `JavaScript`
 
 ✅ Responsive design
@@ -74,7 +75,7 @@
 
 ---
 
-## 📫 Contacts:
+### 📫 Contacts:
 
 📧 **Email:** `chessterfield@gmail.com `
 
