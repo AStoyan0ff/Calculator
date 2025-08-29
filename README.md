@@ -26,6 +26,8 @@
   
 </p>
 
+---
+
 ### 🏗️ OOP Skills (Java & C++)
 
 - **Encapsulation:** `Using private fields with getters/setters  `
