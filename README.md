@@ -18,8 +18,9 @@
 ---
 
 ## 📸 Снимка на проекта
-![Calculator Screenshot]("C:\Users\HP\OneDrive\Pictures\Screenshots\Screenshots\Екранна снимка 2025-08-23 032448.png")
-)
+![Calculator Screenshot]<img width="384" height="621" alt="Екранна снимка 2025-08-23 032448" src="https://github.com/user-attachments/assets/600416c5-a6ce-4a65-a227-c76335e185c5" />
+
+
 
 ---
 
