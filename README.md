@@ -18,7 +18,7 @@
 ---
 
 ## 📸 Снимка на проекта
-![Calculator Screenshot](src="https://github.com/user-attachments/assets/46ddf892-07ec-4e2a-b194-63e25ec94f11" />
+![Calculator Screenshot]("C:\Users\HP\OneDrive\Pictures\Screenshots\Screenshots\Екранна снимка 2025-08-23 032448.png")
 )
 
 ---
