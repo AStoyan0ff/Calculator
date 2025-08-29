@@ -22,12 +22,19 @@ Includes an ON/OFF button, basic mathematical operations and a user-friendly int
 ---
 
 ## ✨ Features
+
 ✔ ON/OFF button
+
 ✔ Basic operations: `+`, `-`, `×`, `÷`
+
 ✔ `√` (root), `%`, `+/-`
+
 ✔ Display with 3D effect
+
 ✔ Round buttons and animation when pressed
+
 ✔ Disable buttons when the calculator is OFF
+
 
 ---
 
