@@ -28,13 +28,13 @@
 
 ### 🏗️ OOP Skills (Java & C++)
 
-- **Encapsulation:** Using private fields with getters/setters  
-- **Inheritance:** Base and derived classes  
-- **Polymorphism:** Method overloading and overriding  
-- **Abstraction:** Abstract classes and interfaces  
-- **Exception Handling:** Try-catch-finally blocks  
-- **Collections & Generics:** Lists, Maps, Sets, Templates  
-- **File I/O & Serialization:** Reading/writing files, object streams  
+- **Encapsulation:** `Using private fields with getters/setters  `
+- **Inheritance:** `Base and derived classes  `
+- **Polymorphism:** `Method overloading and overriding  `
+- **Abstraction:** `Abstract classes and interfaces  `
+- **Exception Handling:** `Try-catch-finally blocks  `
+- **Collections & Generics:** `Lists, Maps, Sets, Templates  `
+- **File I/O & Serialization:** `Reading/writing files, object streams  `
 
 ---
 
