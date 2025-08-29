@@ -21,6 +21,7 @@
 </p>
 
 ### 🏗️ OOP Skills (Java & C++)
+
 - **Encapsulation:** Using private fields with getters/setters  
 - **Inheritance:** Base and derived classes  
 - **Polymorphism:** Method overloading and overriding  
@@ -63,20 +64,21 @@
 ---
 
 ## 📂 Projects:
-🔹 **[Calculator App](https://github.com/AStoyan0ff/Calculator/tree/master/src/Calcilators)** - `HTML&CSS` и `JavaScript  `
+🔹 **[Calculator App](https://github.com/AStoyan0ff/Calculator/tree/master/src/Calcilators)** - `HTML&CSS` and `JavaScript`
 
-✅ Responsive design,
+✅ Responsive design
 
-✅ Click animations,
+✅ Click animations
 
 ✅ 3D display 
 
 ---
 
 ## 📫 Contacts:
-📧 **Email:** chessterfield@gmail.com  
-🌐 **GitHub:** [AStoyanoff](https://github.com/AStoyan0ff/AndreyStoyanov)  
-🔗 **LinkedIn:** [Andrey Stoyanov](https://www.linkedin.com/in/andrey-stoyanov-a2b055351)  
+
+📧 **Email:** `chessterfield@gmail.com ` 
+🌐 **GitHub:** `[AStoyanoff](https://github.com/AStoyan0ff/AndreyStoyanov)  `
+🔗 **LinkedIn:** `[Andrey Stoyanov](https://www.linkedin.com/in/andrey-stoyanov-a2b055351)  `
 
 ---
 
