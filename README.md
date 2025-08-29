@@ -1,4 +1,7 @@
-## 👤 Автор : AStoyanoff
+<h1 align="center">
+   👤 Автор : AStoyanoff 
+  <br>
+</h1>
 
 # 🧮 Calculator
 
