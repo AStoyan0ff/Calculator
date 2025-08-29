@@ -1,3 +1,9 @@
+## 🧮 JavaScript Calculator
+
+A simple and modern calculator made with **HTML**, **CSS** and **JavaScript**.
+Includes an ON/OFF button, basic mathematical operations and a user-friendly interface with animations.
+
+---
 
 ### 📂 Projects:
 🔹 **[Calculator App](https://github.com/AStoyan0ff/Calculator/tree/master/src/Calcilators)** - `HTML&CSS` and `JavaScript`
@@ -10,14 +16,7 @@
 
 ---
 
-## 🧮 JavaScript Calculator
-
-A simple and modern calculator made with **HTML**, **CSS** and **JavaScript**.
-Includes an ON/OFF button, basic mathematical operations and a user-friendly interface with animations.
-
----
-
-## 📸 Снимка на проекта
+## 📸 Project photo
 ![Calculator Screenshot]<img width="300" height="600" alt="Екранна снимка 2025-08-23 032448" src="https://github.com/user-attachments/assets/600416c5-a6ce-4a65-a227-c76335e185c5" />
 
 ---
@@ -32,15 +31,15 @@ Includes an ON/OFF button, basic mathematical operations and a user-friendly int
 
 ---
 
-## 📂 Структура на проекта
+## 📂 Project structure
 
 calculator/
 
-├── index.html # Основният HTML файл
+├── index.html # The main HTML file
 
-├── style.css # CSS стилове
+├── style.css # CSS styles
 
-├── script.js # JavaScript логика
+├── script.js # JavaScript logic
 
 └── images/
 
