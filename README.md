@@ -30,8 +30,7 @@ Includes an ON/OFF button, basic mathematical operations and a user-friendly int
 
 ## 📂 Структура на проекта
 
-   calculator/  
-│  
+   calculator/  │  
 ├── index.html  
 ├── style.css  
 ├── script.js   
