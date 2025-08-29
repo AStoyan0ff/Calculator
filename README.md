@@ -10,16 +10,15 @@
 
 ---
 
-# 🧮 JavaScript Calculator
+## 🧮 JavaScript Calculator
 
-Прост и модерен калкулатор, направен с **HTML**, **CSS** и **JavaScript**.  
-Включва ON/OFF бутон, базови математически операции и удобен интерфейс с анимации.
+A simple and modern calculator made with **HTML**, **CSS** and **JavaScript**.
+Includes an ON/OFF button, basic mathematical operations and a user-friendly interface with animations.
 
 ---
 
 ## 📸 Снимка на проекта
 ![Calculator Screenshot]<img width="384" height="621" alt="Екранна снимка 2025-08-23 032448" src="https://github.com/user-attachments/assets/600416c5-a6ce-4a65-a227-c76335e185c5" />
-
 
 
 ---
