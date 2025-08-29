@@ -1,12 +1,13 @@
 <h1 align="center">
-   👤 Автор : AStoyanoff 
+   👤 Author : AStoyanoff 
   <br>
 </h1>
 
+
 # 🧮 Calculator
 
-Прост и модерен калкулатор, направен с **HTML**, **CSS** и **JavaScript**.  
-Включва ON/OFF бутон, базови математически операции и удобен интерфейс с анимации.
+A simple and modern calculator made with **HTML**, **CSS** and **JavaScript**.
+Includes an ON/OFF button, basic mathematical operations and a user-friendly interface with animations.
 
 ---
 
