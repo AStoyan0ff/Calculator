@@ -18,18 +18,17 @@ Includes an ON/OFF button, basic mathematical operations and a user-friendly int
 ---
 
 ## 📸 Снимка на проекта
-![Calculator Screenshot]<img width="384" height="621" alt="Екранна снимка 2025-08-23 032448" src="https://github.com/user-attachments/assets/600416c5-a6ce-4a65-a227-c76335e185c5" />
-
+![Calculator Screenshot]<img width="300" height="600" alt="Екранна снимка 2025-08-23 032448" src="https://github.com/user-attachments/assets/600416c5-a6ce-4a65-a227-c76335e185c5" />
 
 ---
 
-## ✨ Функционалности
-✔ ON/OFF бутон  
-✔ Базови операции: `+`, `-`, `×`, `÷`  
-✔ `√` (корен), `%`, `+/-`  
-✔ Дисплей с 3D ефект  
-✔ Кръгли бутони и анимация при натискане  
-✔ Деактивиране на бутоните, когато калкулаторът е OFF  
+## ✨ Features
+✔ ON/OFF button
+✔ Basic operations: `+`, `-`, `×`, `÷`
+✔ `√` (root), `%`, `+/-`
+✔ Display with 3D effect
+✔ Round buttons and animation when pressed
+✔ Disable buttons when the calculator is OFF
 
 ---
 
