@@ -64,6 +64,7 @@
 
 ## 📂 Projects:
 🔹 **[Calculator App](https://github.com/AStoyan0ff/Calculator/tree/master/src/Calcilators)** - `HTML&CSS` и `JavaScript  `
+
 ✅ Responsive design,
 
 ✅ Click animations,
