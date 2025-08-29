@@ -18,7 +18,8 @@
 ---
 
 ## 📸 Снимка на проекта
-![Calculator Screenshot](https://user-images.githubusercontent.com/123456789/abcdef.png)
+![Calculator Screenshot](<img width="384" height="621" alt="Екранна снимка 2025-08-23 032448" src="https://github.com/user-attachments/assets/46ddf892-07ec-4e2a-b194-63e25ec94f11" />
+)
 
 ---
 
@@ -37,8 +38,12 @@
 calculator/
 
 ├── index.html # Основният HTML файл
+
 ├── style.css # CSS стилове
+
 ├── script.js # JavaScript логика
+
 └── images/
+
 └── screenshot.png
 
