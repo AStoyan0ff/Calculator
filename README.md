@@ -42,11 +42,13 @@ Includes an ON/OFF button, basic mathematical operations and a user-friendly int
 
 calculator/
 
-├── index.html # The main HTML file
+├── index.html 
+  # The main HTML file
 
 ├── style.css # CSS styles
 
-├── script.js # JavaScript logic
+├── script.js 
+  # JavaScript logic
 
 └── images/
 
