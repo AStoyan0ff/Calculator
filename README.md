@@ -41,18 +41,18 @@ Includes an ON/OFF button, basic mathematical operations and a user-friendly int
 ## 📂 Project structure
 
 calculator/
-  # The main HTML file
 
+  # The main HTML file:
 ├── index.html 
   
-  # CSS styles
+  # CSS styles:
 ├── style.css 
 
-  # JavaScript logic
+  # JavaScript logic:
 ├── script.js 
   
-
+  # Pictures:
 └── images/
-
+  # ScreenShot:
 └── screenshot.png
 
